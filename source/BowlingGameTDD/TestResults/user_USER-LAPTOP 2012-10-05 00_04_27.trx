@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a10ee2fe-2b4f-4e20-b82b-d05cb8ef8c1c" name="user@USER-LAPTOP 2012-10-05 00:04:27" runUser="user-laptop\user" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="835b2509-bff2-4464-934d-51eafd7729ae">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="user_USER-LAPTOP 2012-10-05 00_04_27">
+      <DeploymentItem filename="c:\users\user\documents\visual studio 2010\Projects\BowlingGame\bin\Debug\BowlingGame.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-05T00:04:27.0994219-05:00" queuing="2012-10-05T00:04:27.3764378-05:00" start="2012-10-05T00:04:27.3994391-05:00" finish="2012-10-05T00:04:27.7934616-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IsFrameComplete_IfStrke" storage="c:\users\user\documents\visual studio 2010\projects\bowlinggametdd\bowlinggametdd\bin\debug\bowlinggametdd.dll" id="85fa7570-d822-7e83-116b-154ea2524183">
+      <Execution id="c1fa710b-afed-4b49-8d91-7434cbeaf48a" />
+      <TestMethod codeBase="C:/Users/user/documents/visual studio 2010/Projects/BowlingGameTDD/BowlingGameTDD/bin/Debug/BowlingGameTDD.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTDD.UnitTest1, BowlingGameTDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsFrameComplete_IfStrke" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="85fa7570-d822-7e83-116b-154ea2524183" executionId="c1fa710b-afed-4b49-8d91-7434cbeaf48a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c1fa710b-afed-4b49-8d91-7434cbeaf48a" testId="85fa7570-d822-7e83-116b-154ea2524183" testName="IsFrameComplete_IfStrke" computerName="USER-LAPTOP" duration="00:00:00.0239670" startTime="2012-10-05T00:04:27.4054394-05:00" endTime="2012-10-05T00:04:27.7524593-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1fa710b-afed-4b49-8d91-7434cbeaf48a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

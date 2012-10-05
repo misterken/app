@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a96eee56-9d6a-4a91-8439-5cf37825588e" name="user@USER-LAPTOP 2012-10-05 00:19:03" runUser="user-laptop\user" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="835b2509-bff2-4464-934d-51eafd7729ae">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="user_USER-LAPTOP 2012-10-05 00_19_03">
+      <DeploymentItem filename="c:\users\user\documents\visual studio 2010\Projects\BowlingGame\bin\Debug\BowlingGame.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-05T00:19:03.4535465-05:00" queuing="2012-10-05T00:19:03.5245506-05:00" start="2012-10-05T00:19:03.5795537-05:00" finish="2012-10-05T00:19:03.9385742-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Calculate_Score" storage="c:\users\user\documents\visual studio 2010\projects\bowlinggametdd\bowlinggametdd\bin\debug\bowlinggametdd.dll" id="465b13e8-272e-c3a5-6219-c486bd2fc41d">
+      <Execution id="c53dcaf1-0898-4ee7-a6fd-35a902e3bc70" />
+      <TestMethod codeBase="C:/Users/user/documents/visual studio 2010/Projects/BowlingGameTDD/BowlingGameTDD/bin/Debug/BowlingGameTDD.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTDD.UnitTest1, BowlingGameTDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Calculate_Score" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="465b13e8-272e-c3a5-6219-c486bd2fc41d" executionId="c53dcaf1-0898-4ee7-a6fd-35a902e3bc70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c53dcaf1-0898-4ee7-a6fd-35a902e3bc70" testId="465b13e8-272e-c3a5-6219-c486bd2fc41d" testName="Calculate_Score" computerName="USER-LAPTOP" duration="00:00:00.0247015" startTime="2012-10-05T00:19:03.6075553-05:00" endTime="2012-10-05T00:19:03.9175730-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c53dcaf1-0898-4ee7-a6fd-35a902e3bc70">
+    </UnitTestResult>
+  </Results>
+</TestRun>

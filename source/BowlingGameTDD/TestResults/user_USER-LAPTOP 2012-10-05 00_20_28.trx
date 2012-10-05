@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6ed1c537-c7bb-4d85-8f3b-829291a7a7e2" name="user@USER-LAPTOP 2012-10-05 00:20:28" runUser="user-laptop\user" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="835b2509-bff2-4464-934d-51eafd7729ae">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="user_USER-LAPTOP 2012-10-05 00_20_28">
+      <DeploymentItem filename="c:\users\user\documents\visual studio 2010\Projects\BowlingGame\bin\Debug\BowlingGame.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-05T00:20:28.6404189-05:00" queuing="2012-10-05T00:20:28.9244352-05:00" start="2012-10-05T00:20:28.9354358-05:00" finish="2012-10-05T00:20:29.3444592-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Calculate_ScoreAfterTwoNormalFrames" storage="c:\users\user\documents\visual studio 2010\projects\bowlinggametdd\bowlinggametdd\bin\debug\bowlinggametdd.dll" id="f6d51a17-7a59-304c-caf4-442b44ea22c2">
+      <Execution id="42ea999b-7409-460f-a2cd-4834268d4f5d" />
+      <TestMethod codeBase="C:/Users/user/documents/visual studio 2010/Projects/BowlingGameTDD/BowlingGameTDD/bin/Debug/BowlingGameTDD.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTDD.UnitTest1, BowlingGameTDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Calculate_ScoreAfterTwoNormalFrames" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f6d51a17-7a59-304c-caf4-442b44ea22c2" executionId="42ea999b-7409-460f-a2cd-4834268d4f5d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="42ea999b-7409-460f-a2cd-4834268d4f5d" testId="f6d51a17-7a59-304c-caf4-442b44ea22c2" testName="Calculate_ScoreAfterTwoNormalFrames" computerName="USER-LAPTOP" duration="00:00:00.0453646" startTime="2012-10-05T00:20:28.9494366-05:00" endTime="2012-10-05T00:20:29.2924562-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42ea999b-7409-460f-a2cd-4834268d4f5d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;15&gt;. Actual:&lt;(null)&gt;. </Message>
+          <StackTrace>   at BowlingGameTDD.UnitTest1.Calculate_ScoreAfterTwoNormalFrames() in C:\Users\user\documents\visual studio 2010\Projects\BowlingGameTDD\BowlingGameTDD\UnitTest1.cs:line 207
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

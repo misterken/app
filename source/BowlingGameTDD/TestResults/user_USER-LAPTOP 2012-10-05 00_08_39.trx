@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4d5dcab3-d071-4ceb-b068-2aae975bc2c2" name="user@USER-LAPTOP 2012-10-05 00:08:39" runUser="user-laptop\user" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="835b2509-bff2-4464-934d-51eafd7729ae">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="user_USER-LAPTOP 2012-10-05 00_08_39">
+      <DeploymentItem filename="c:\users\user\documents\visual studio 2010\Projects\BowlingGame\bin\Debug\BowlingGame.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-05T00:08:39.1678394-05:00" queuing="2012-10-05T00:08:39.2348432-05:00" start="2012-10-05T00:08:39.2538443-05:00" finish="2012-10-05T00:08:39.6078646-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IsFrameComplete_TwoRolls" storage="c:\users\user\documents\visual studio 2010\projects\bowlinggametdd\bowlinggametdd\bin\debug\bowlinggametdd.dll" id="974f7546-f3c2-1bdf-4cd2-8114ea26fda4">
+      <Execution id="1a3823bd-c8f8-4439-b2cf-f12854b9dfe3" />
+      <TestMethod codeBase="C:/Users/user/documents/visual studio 2010/Projects/BowlingGameTDD/BowlingGameTDD/bin/Debug/BowlingGameTDD.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTDD.UnitTest1, BowlingGameTDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsFrameComplete_TwoRolls" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="974f7546-f3c2-1bdf-4cd2-8114ea26fda4" executionId="1a3823bd-c8f8-4439-b2cf-f12854b9dfe3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1a3823bd-c8f8-4439-b2cf-f12854b9dfe3" testId="974f7546-f3c2-1bdf-4cd2-8114ea26fda4" testName="IsFrameComplete_TwoRolls" computerName="USER-LAPTOP" duration="00:00:00.0239080" startTime="2012-10-05T00:08:39.2778457-05:00" endTime="2012-10-05T00:08:39.5868634-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a3823bd-c8f8-4439-b2cf-f12854b9dfe3">
+    </UnitTestResult>
+  </Results>
+</TestRun>
