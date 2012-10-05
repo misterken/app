@@ -20,7 +20,7 @@ form:
 
 Origin position of a car is facing north
 
-"O(0,0),R,1,L,2,"
+"O(0,0),R,1,L,2"
 
 The location and rotation of the micro machine should be reflected
 by movement on the track.
@@ -33,3 +33,20 @@ message:
 * Fell off the track
 
 
+Test Cases
+
+1.
+  Input - "0,0|R2R3L1"
+  Output - E 3,3
+
+2. 
+  Input - "2,1|L2"
+  Output - Fell off track
+
+3. 
+  Input - "0,4|LL22R4R4"
+  Output - N 0,0
+
+4. 
+  Input - "0,0|LLRRR"
+  Output - E 0,0
