@@ -111,17 +111,22 @@
     <Compile Include="web\core\aspnet\WebFormPageFactory.cs" />
     <Compile Include="web\core\aspnet\WebFormsDisplayEngine.cs" />
     <Compile Include="web\core\aspnet\IWriteToAStream.cs" />
+    <Compile Include="web\core\Command.cs" />
     <Compile Include="web\core\CreateMissingCommand_Behaviour.cs" />
     <Compile Include="web\core\FrontController.cs" />
     <Compile Include="web\core\GetTheCurrentUser_Behaviour.cs" />
+    <Compile Include="web\core\ICommand.cs" />
+    <Compile Include="web\core\ICommandQueue.cs" />
     <Compile Include="web\core\ICreateRequests.cs" />
     <Compile Include="web\core\IDetermineIfAUserMeetsACondition.cs" />
     <Compile Include="web\core\IDisplayInformation.cs" />
     <Compile Include="web\core\IEncapsulateRequestDetails.cs" />
     <Compile Include="web\core\IFindCommands.cs" />
+    <Compile Include="web\core\IMicroMachine.cs" />
     <Compile Include="web\core\IProcessOneRequest.cs" />
     <Compile Include="web\core\ISupportAUserFeature.cs" />
     <Compile Include="web\core\MatchRequest_Behaviour.cs" />
+    <Compile Include="web\core\MicroMachine.cs" />
     <Compile Include="web\core\stubs\StubRequestFactory.cs" />
     <Compile Include="web\core\stubs\StubSetOfCommands.cs" />
   </ItemGroup>
